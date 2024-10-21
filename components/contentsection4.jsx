@@ -10,7 +10,7 @@ export default function ContentSection4() {
                 <div className="w-[633px] h-[71px] flex items-center justify-between">
                     <Image
                     src="/images/ClickWave.png"
-                    alt="Logo"
+                    alt="ClickWave"
                     width={177}
                     height={54}
                     priority
