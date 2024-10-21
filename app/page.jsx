@@ -1,20 +1,18 @@
-import Image from "next/image";
+import ContentSection2 from "@/components/contentsection2";
+import ContentSection3 from "@/components/contentsection3";
+import ContentSection4 from "@/components/contentsection4";
+import Main from "@/components/main"
 
 export default function Home() {
+
   return (
-    <div className="flex justify-center items-center min-h-screen">
-      <main className="flex flex-col items-center">
-        <Image
-          src="/images/icon.png"
-          alt="Logo"
-          width={100}
-          height={100}
-          priority
-        />
-        <h1 className="text-center mt-4">
-          Монетизируйте клиентскую базу, не снижая NPS
-        </h1>
-      </main>
+    <div className="flex flex-col lg:mx-28">
+      <div>
+        <Main />
+        <ContentSection2 />
+        <ContentSection3 />
+        <ContentSection4 />
+      </div>
     </div>
   );
 }
