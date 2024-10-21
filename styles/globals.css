@@ -22,3 +22,25 @@
     font-weight: bold;
     font-style: normal;
 }
+
+.backgroundImage {
+    background-image: url('/images/blue-glass-shapes-composition-3d-rendering.png');
+    background-size: 100% auto;
+    background-position: top -38px;
+    background-repeat: no-repeat;
+    background-color: #E8EDEE;
+    padding-top: 32px;
+  }
+
+.font-regular {
+    font-family: var(--font-onest-regular);
+}
+  
+.font-medium {
+    font-family: var(--font-onest-medium);
+}
+  
+.font-bold {
+    font-family: var(--font-onest-bold);
+}
+
