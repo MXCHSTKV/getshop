@@ -8,15 +8,13 @@ import Main from "@/components/main"
 export default function Home() {
 
   return (
-    <div className="flex flex-col lg:mx-28">
-      <div>
+    <div className="flex flex-col">
         <Main />
         <ContentSection2 />
         <ContentSection3 />
         <ContentSection4 />
         <ContentSection5 />
         <ContentSection6 />
-      </div>
     </div>
   );
 }

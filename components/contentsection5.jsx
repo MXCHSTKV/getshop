@@ -4,7 +4,7 @@ import Button from "./button"
 export default function ContentSection5() {
 
     return (
-        <div id="work" className="relative flex w-[1440px] h-[648px] ml-[-110px] items-center overflow-hidden">
+        <section id="work" className="relative flex w-[1440px] h-[648px] items-center overflow-hidden">
             <div className="w-[497px] h-[436px] ml-[141px]">
                 <h2 className="font-bold text-[32px] w-[473px] h-[76px] line-h2">Подробные отчёты для вас и правообладателей</h2>
                 <div className="mt-[32px] w-[497px] h-[200px] mb-[80px] flex flex-col justify-between">
@@ -50,6 +50,6 @@ export default function ContentSection5() {
             priority
             className="absolute ml-[810px]"
             />
-        </div>
+        </section>
     )
 }
