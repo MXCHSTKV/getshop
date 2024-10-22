@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function ContentSection3() {
 
     return (
-        <div className="w-[1220px] h-[447px] mt-[180px] mb-[90px]">
+        <div id='advantages' className="w-[1220px] h-[447px] mt-[180px] mb-[90px]">
             <div className="font-bold text-[32px] text-center mb-[80px]">Баланс между выручкой и удовлетворённостью пользователей</div>
             <div className="flex justify-between w-[1160px] h-[261px] mx-auto">
                 <div className="w-[300px] h-[258px]">

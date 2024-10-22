@@ -11,8 +11,8 @@ export default function Header() {
             priority
             />
             <div className="w-[336px] h-[44px] flex justify-around items-center font-medium">
-                <p>Преимущества</p>
-                <p>Как работаем</p>
+                <a href="#advantages" className='hover:text-dark_orange '>Преимущества</a>
+                <a href="#work" className='hover:text-dark_orange '>Как работаем</a>
             </div>
         </header>
     )

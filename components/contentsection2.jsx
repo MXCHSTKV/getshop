@@ -7,7 +7,7 @@ export default function ContentSection2() {
     
     return (
         <div className="flex justify-between px-[30px] w-[1160px] h-[212px] mt-[180px]">
-            <p className="flex w-[460px] h-[114px] text-[32px] font-bold">Дополнительные источники выручки для разных компаний</p>
+            <p className="flex w-[460px] h-[114px] text-[32px] font-bold line-h2">Дополнительные источники выручки для разных компаний</p>
             <div  className='w-[560px] h-[188px]'>
                 { isToggled ? 
                     <div className='flex w-[560px] h-[60px] bg-white rounded-[10px] justify-around items-center'>

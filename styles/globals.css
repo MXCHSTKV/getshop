@@ -44,3 +44,11 @@
     font-family: var(--font-onest-bold);
 }
 
+.line-h2 {
+    line-height: 38.4px;
+}
+
+.line-h1 {
+    line-height: 88px;
+}
+
