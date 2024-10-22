@@ -31,9 +31,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ru">
       <body
-        className={`${onestRegular.variable} ${onestMedium.variable} ${onestBold.variable} antialiased max-w-[1440px] mx-auto md:w-[768px] lg:w-[1440px] min-w-[320px] `}
+        className={`${onestRegular.variable} ${onestMedium.variable} ${onestBold.variable} antialiased w-[1440px] mx-auto`}
       >
-        <div className="absolute inset-0 backgroundImage z-[-1] max-w-[1440px] min-h-[1110px] w-full mx-auto"></div>
+        <div className="absolute inset-0 backgroundImage z-[-1] w-[1440px] min-h-[1110px] mx-auto"></div>
         {children}
       </body>
     </html>
