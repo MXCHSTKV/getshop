@@ -28,7 +28,7 @@ useEffect(() => {
   const fixedHeader = isScrolled ? "shadow-[0_4px_8px_rgba(214,219,219,0.7)] bg-gray_03" : ""
 
     return (
-        <header className={`flex fixed h-[72px] lg:pl-[30px] md:px-[10px] lg:w-[1220px] md:w-[688px] justify-between items-center z-50 lg:ml-[110px] md:ml-[40px] ${fixedHeader}`}>
+        <header className={`flex fixed h-[72px] lg:pl-[30px] px-[10px] lg:w-[1220px] w-[688px] justify-between items-center z-50 lg:ml-[110px] ml-[40px] ${fixedHeader}`}>
             <Image
             src="/images/logo.svg"
             alt="Logo"
