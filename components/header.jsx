@@ -31,7 +31,7 @@ useEffect(() => {
 
     return (
         <header className={`flex fixed h-[72px] lg:pl-[30px] px-[10px] lg:w-[1220px] w-[688px] justify-between items-center z-20 lg:ml-[110px] ml-[40px] ${fixedHeader}`}>
-            {isActive ? <Menu /> : false}
+            {isActive && width < 1440 ? <Menu /> : false}
             <Image
             src="/images/logo.svg"
             alt="Logo"
@@ -39,7 +39,7 @@ useEffect(() => {
             height={40}
             priority
             />
-            {width <= 1440 ? 
+            {width < 1440 ? 
             <button type='button' className='relative z-100' onClick={()=>{setIsActive(!isActive)}}>
             {isActive ? <Image
             src="/images/close.svg"
