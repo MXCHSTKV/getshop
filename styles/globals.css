@@ -65,9 +65,11 @@
 }
 
 .line-h1 {
-    line-height: 88px;
+    line-height: 57.2px;
 }
 
-.line-h1-md {
-    line-height: 57.2px;
+@media (min-width: 1440px) {
+    .line-h1 {
+        line-height: 88px;
+    }
 }
