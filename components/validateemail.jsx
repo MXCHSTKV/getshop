@@ -18,13 +18,13 @@ export default function EmailForm() {
   }
 
   return (
-    <div className="w-[560px] h-[215px]">
-        <input className={`w-[560px] h-[48px] mb-[32px] bg-gray_03 border-b ${borderColor} focus:outline-none focus:border-gray_01`} value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Введите ваш e-mail" />
+    <div className="lg:w-[560px] md:w-[688px] lg:h-[215px] md:h-[232px]">
+        <input className={`lg:w-[560px] md:w-[688px] h-[48px] mb-[32px] bg-gray_03 border-b ${borderColor} focus:outline-none focus:border-gray_01`} value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Введите ваш e-mail" />
         {error ? <p className="absolute mt-[-32px] text-[10px] text-error">{error}</p> : null}
-        <div className="mb-[48px] w-[560px] h-[40px] flex">
+        <div className="mb-[48px] lg:w-[560px] md:w-[688px] h-[40px] flex">
             <input type="checkbox" id="terms" className="w-[14px] h-[14px] mt-[4px] accent-orange" />
-            <label htmlFor="terms" className="block w-[438px] h-[40px] ml-2 text-[14px]">
-                Я ознакомлен(а) с политикой конфиденциальности и<br />согласен(на) на обработку персональных данных.
+            <label htmlFor="terms" className="block lg:w-[438px] md:w-[660px] h-[40px] ml-2 text-[14px]">
+                Я ознакомлен(а) с политикой конфиденциальности&nbsp;и согласен(на) на обработку персональных данных.
             </label>
         </div>
         <Button color="bg-black" name="Отправить" width="w-full" onClick={onSubmit}/>

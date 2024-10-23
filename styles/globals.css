@@ -23,14 +23,24 @@
     font-style: normal;
 }
 
+
 .backgroundImage {
     background-image: url('/images/blue-glass-shapes-composition-3d-rendering.png');
-    background-size: 100% auto;
-    background-position: top -38px;
+    background-position: top;
     background-repeat: no-repeat;
     background-color: #E8EDEE;
     padding-top: 32px;
-  }
+}
+
+@media (min-width: 768px) {
+    .backgroundImage {
+    background-size: auto 90%;
+}}
+
+@media (min-width: 1440px) {
+    .backgroundImage {
+    background-size: 100% auto;
+}}
 
 .font-regular {
     font-family: var(--font-onest-regular);
@@ -45,10 +55,19 @@
 }
 
 .line-h2 {
-    line-height: 38.4px;
+    line-height: 33.6px;
+}
+
+@media (min-width: 1440px) {
+    .line-h2 {
+        line-height: 38.4px;
+    }
 }
 
 .line-h1 {
     line-height: 88px;
 }
 
+.line-h1-md {
+    line-height: 57.2px;
+}
