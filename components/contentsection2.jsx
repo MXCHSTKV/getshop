@@ -10,12 +10,12 @@ export default function ContentSection2() {
             <h2 className="flex lg:w-[460px] w-[275px] h-[136px] lg:h-[114px] lg:text-[32px] text-[28px] font-bold line-h2">Дополнительные источники выручки для разных компаний</h2>
             <div  className='lg:w-[560px] lg:h-[188px] w-[334px] h-[112px]'>
                 { isToggled ? 
-                    <article className='flex lg:w-[560px] w-[336px] lg:h-[60px] h-[36px] bg-white lg:rounded-[10px] rounden-[6px] justify-around items-center'>
+                    <article className='flex lg:w-[560px] w-[336px] lg:h-[60px] h-[36px] bg-white lg:rounded-[10px] rounded-[6px] justify-around items-center'>
                         <ToggleButton onClick={()=>setIsToggled(!isToggled)} name="Операторам" />
                         <p className="flex items-center justify-center lg:w-[276px] w-[165.6px] lg:h-[52px] h-[31px] text-[16px] lg:text-[24px]">ОТТ сервисам</p>
                     </article>
                      : 
-                    <article className='flex lg:w-[560px] w-[336px] lg:h-[60px] h-[36px] bg-white lg:rounded-[10px] rounden-[6px] justify-around items-center'>
+                    <article className='flex lg:w-[560px] w-[336px] lg:h-[60px] h-[36px] bg-white lg:rounded-[10px] rounded-[6px] justify-around items-center'>
                         <p className="flex items-center justify-center lg:w-[276px] w-[165.6px] lg:h-[52px] h-[31px] text-[16px] lg:text-[24px]">Операторам</p>
                         <ToggleButton onClick={()=>setIsToggled(!isToggled)} name="ОТТ сервисам"/>
                     </article>

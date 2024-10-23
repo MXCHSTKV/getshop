@@ -1,12 +1,18 @@
 "use client"
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useLayoutEffect } from 'react'
 import Image from 'next/image'
 import Menu from './menu'
 
 export default function Header() {
 const [isScrolled, setIsScrolled] = useState(false)
-const [width, setWidth] = useState(null)
+const [width, setWidth] = useState(1440)
 const [isActive, setIsActive] = useState(false)
+
+useLayoutEffect(() => {
+    if (typeof window !== 'undefined') {
+      setWidth(window.innerWidth);
+    }
+  }, []);
 
 useEffect(() => {
     if (typeof window !== 'undefined') {   
