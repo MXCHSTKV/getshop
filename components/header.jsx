@@ -5,7 +5,7 @@ import Menu from './menu'
 
 export default function Header() {
 const [isScrolled, setIsScrolled] = useState(false)
-const [width, setWidth] = useState(312)
+const [width, setWidth] = useState(null)
 const [isActive, setIsActive] = useState(false)
 
 useEffect(() => {
